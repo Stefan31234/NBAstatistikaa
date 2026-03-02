@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/card_match"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvTeamName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TEAM"
+        android:textColor="@color/fs_text"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W 0"
+        android:textColor="@color/fs_text"
+        android:textStyle="bold"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/tvL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L 0"
+        android:textColor="@color/fs_text"
+        android:textStyle="bold"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/tvPct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.000"
+        android:textColor="@color/fs_green"
+        android:textStyle="bold"/>
+</LinearLayout>

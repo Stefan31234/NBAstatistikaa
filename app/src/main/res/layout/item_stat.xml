@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/card_match"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Name (TEAM)"
+        android:textColor="@color/fs_text"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="PTS 0  REB 0  AST 0  STL 0  BLK 0  3PM 0  TOV 0"
+        android:textColor="@color/fs_text_muted"
+        android:textSize="12sp"/>
+</LinearLayout>
